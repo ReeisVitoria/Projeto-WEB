@@ -1,0 +1,203 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  font-family: 'Noto+Sans+JP';
+  font-weight: 400;
+  color: rgba(104, 4, 74, 0.85);
+  background-color: rgba(243,203,232,1);
+  margin: 0;
+}
+
+h1, h2, h3, p span {
+  color:  rgba(104, 4, 74, 0.85)
+  
+}
+
+h1 {
+    font-family: 'Anton';
+
+}
+
+h3 {
+    font-size: 2.0em;
+
+}
+a {
+  color:rgba(150, 22, 112, 0.849);
+  text-decoration:none;
+}
+
+a:hover {
+    color: white;
+}
+li {
+  font-size: 1.2em;
+}
+
+header {
+  background-image: url('livros.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header .foreground {
+  background-color: rgba(150, 22, 112, 0.849);
+  padding: 20px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  font-size: 32px;
+  color: white;
+  border: 1.5px solid white;
+}
+
+.top-container h1 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.top-container nav {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(224, 193, 212);
+  position: fixed;
+  top: 0;
+  left: -85%;
+  font-size: 1.3em;
+  box-shadow: rgba(30, 30, 40, 0.5) 1px 0px 5px;
+  transition: 1s left ease;
+}
+
+.show-nav {
+  left: 0 !important;
+}
+
+.landing-section  p {
+    font-size: 1.6em;
+
+}
+    
+
+.top-container nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline-start: 0px;
+
+}
+
+.top-container nav ul li {
+  list-style-type: none;
+  padding: 15px 30px;
+}
+
+.top-container nav ul li a {
+  color: #333;
+}
+.Home-section {
+    max-width: 600px;
+    padding: 0px 50px 50px 50px;
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color:  rgba(241, 217, 234, 0.85);
+    text-align: center;
+  }
+  
+
+header h2 {
+  font-size: 2.6em;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(90, 5, 55, 0.685) 0px 5px 5px;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.landing-section {
+  padding: 10px 20px;
+
+
+}
+
+.landing-section h2 {
+  font-size: 2.6em;
+}
+
+.landing-section p {
+  font-size: 1.5em;
+  font-weight: 500;
+  max-width: 800px;
+}
+
+footer {
+  background-color: rgba(32, 1, 20, 0.897) ;
+  color: #FFF;
+}
+
+footer p {
+  margin: 0;
+  padding: 80px;
+  text-align:center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.medium-bg {
+  background-color: rgba(195, 146, 181, 0.85);
+}
+
+/* Profile Page */
+
+.profile-section {
+  max-width: 500px;
+  padding: 0px 50px 50px 50px;
+  border: 1px solid #BBB;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color:  rgba(241, 217, 234, 0.85);
+  text-align: center;
+}
+
+.profile-section img {
+  position: relative;
+  top: -30px;
+  box-shadow: 0px -2px 3px rgba(30, 30, 40, 0.2);
+  border-radius: 50%;
+}
+
+.profile-section ul {
+  text-align: left;
+}
+
+@media screen and (min-width: 420px) {
+  .top-container nav {
+    width: 100%;
+    background-color: transparent;
+    position: static;
+    box-shadow: none;
+  }
+  .top-container nav ul {
+    flex-direction: row;
+  }
+  .top-container nav ul li {
+    padding: 0;
+  }
+  .top-container nav ul li a {
+    color: white;
+  }
+  .hamburger {
+    display: none;
+  }
+}
