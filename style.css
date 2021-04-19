@@ -104,7 +104,7 @@ header .foreground {
 .Home-section {
     max-width: 600px;
     padding: 0px 50px 50px 50px;
-    border: 1px solid #BBB;
+    border: 2px solid #BBB;
     border-radius: 5px;
     margin: 20px auto;
     background-color:  rgba(241, 217, 234, 0.85);
