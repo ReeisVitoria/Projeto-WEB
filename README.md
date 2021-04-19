@@ -6,7 +6,7 @@ O principal intuito desse projeto é ajudar pessoas que não possuem condições
 
 Espero que esse projeto tenha um bom alcance!
 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas 💻
 
 HTML, CSS e JavaScript.
 
