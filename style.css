@@ -37,7 +37,7 @@ li {
 }
 
 header {
-  background-image: url('livros.jpg');
+  background-image: url('assets/img/livros.jpg');
   background-size: cover;
   background-position: center;
 }
